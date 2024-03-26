@@ -32,7 +32,7 @@ namespace Vehicle_Rental_Management_System
         {
             base.DisplayDetails(); // Call base class method to display common vehicle properties
             Console.WriteLine($"Seats: {Seats}");
-            Console.WriteLine($"Engine Type: {EngineType}");
+            Console.WriteLine($"Type of Engine: {EngineType}");
             Console.WriteLine($"Transmission: {Transmission}");
             Console.WriteLine($"Convertible: {(Convertible ? "Yes" : "No")}");
         }
