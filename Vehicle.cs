@@ -46,7 +46,7 @@ namespace Vehicle_Rental_Management_System
                 if (value > 0 && value <= DateTime.Now.Year)
                     year = value;
                 else
-                    throw new ArgumentException("Invalid year.");
+                    throw new ArgumentException("Year is not vaild.");
             }
         }
 
