@@ -30,7 +30,7 @@ namespace Vehicle_Rental_Management_System
         {
             base.DisplayDetails(); // Call base class method to display common vehicle properties
             Console.WriteLine($"Capacity: {Capacity} tons");
-            Console.WriteLine($"Truck Type: {TruckType}");
+            Console.WriteLine($"Truck Type: {TruckType}"); 
             Console.WriteLine($"Four Wheel Drive: {(FourWheelDrive ? "Yes" : "No")}");
         }
     }
