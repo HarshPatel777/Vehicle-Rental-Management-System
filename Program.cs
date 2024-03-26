@@ -6,7 +6,7 @@ class Program
     static void Main(string[] args)
     {
         // Create vehicles
-        Car car = new Car("Toyota Camry", "Toyota", 2022, 50.0, 5, "V6", "Automatic", false);
+        Car car = new Car("BMW", "Toyota", 2022, 50.0, 5, "V6", "Automatic", false);
         Truck truck = new Truck("Ford F-150", "Ford", 2021, 80.0, 3, "Pickup", true);
         Motorcycle motorcycle = new Motorcycle("Harley Davidson Street 750", "Harley Davidson", 2020, 40.0, 750, "Gasoline", true);
 
