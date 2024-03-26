@@ -64,7 +64,7 @@ namespace Vehicle_Rental_Management_System
         public void RentVehicle(string model, int days)
         {
             foreach (var vehicle in fleet)
-            {
+            { 
                 if (vehicle != null && vehicle.Model == model)
                 {
                     double rentalPrice = vehicle.RentalPrice * days;
